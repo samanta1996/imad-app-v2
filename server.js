@@ -12,10 +12,10 @@ app.get('/article-one',function(req,res){
    res.send('article1 is requested here');
 });
 app.get('/article-two',function(req,res){
-   res.send('article1 is requested here');
+   res.send('article2 is requested here');
 });
 app.get('/article-three',function(req,res){
-   res.send('article1 is requested here');
+   res.send('article3 is requested here');
 });
 
 
